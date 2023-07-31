@@ -2,7 +2,11 @@ package main
 
 import (
 	"fmt"
+<<<<<<< Updated upstream
 	//"strconv"
+=======
+
+>>>>>>> Stashed changes
 	"rsc.io/quote"
 )
 
@@ -10,6 +14,7 @@ func main() {
 	fmt.Println("Hola mundo")
 	fmt.Println(quote.Go())
 
+<<<<<<< Updated upstream
 	// name := "Alex"
 	// age := 28
 
@@ -30,5 +35,8 @@ func main() {
 
 	fmt.Printf("El tipo de name es: %T\n", name)
 	fmt.Printf("El tipo de age es: %T\n", age)
+=======
+	fmt.Print("Otro mensaje")
+>>>>>>> Stashed changes
 
 }
